@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+*,
+.MuiTypography-root {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.header.MuiAppBar-root {
+  padding: 15px;
+  background-color: #e4e4e4;
+}
+
+.header .MuiTypography-h6 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #272929;
+}
+
+.authenticateForm {
+  border-radius: 25px;
+  background: #ffffff;
+  max-width: 650px;
+  padding: 40px 43px;
+  margin: 0px auto;
+  box-shadow: 0px 4px 14px rgba(68, 68, 68, 0.14);
+}
+
+.authenticateForm .MuiTypography-h4 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  color: #272929;
+  margin-bottom: 20px;
+}
+
+.authenticateForm .MuiTypography-body1 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #272929;
+}
+
+.authenticateForm .authenticateButton {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  box-shadow: none;
+}
+
+.authenticateWrapper {
+  padding: 5rem 0 2rem;
+}
+
+.addEntryButton.MuiButton-contained {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  box-shadow: none;
+  max-width: 150px;
+  width: 100%;
+}
+
+.addEntryDialog .MuiDialog-paper {
+  border-radius: 25px;
+  background: #ffffff;
+  max-width: 650px;
+  width: 100%;
+  padding: 40px 43px;
+  box-shadow: 0px 4px 14px rgba(68, 68, 68, 0.14);
+}
+
+.addEntryDialog .MuiButton-outlined {
+  border: 1px solid #d4d4d4;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #272929;
+  text-transform: capitalize;
+  width: 130px;
+  height: 40px;
+}
+
+.addEntryDialog .MuiButton-contained {
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+  background-color: #2f80ed;
+  border-radius: 12px;
+  box-shadow: none;
+  max-width: 150px;
+  width: 100%;
+  height: 40px;
+}
+
+.addEntryDialog .MuiInputBase-root {
+  width: 100%;
+}
+
+.inputSpacing {
+  margin-bottom: 20px;
+}
+
+.addEntryDialog .MuiFormControl-root.MuiTextField-root {
+  width: 100%;
+}
+
+.dateTimeInput .MuiInputBase-root input {
+  border: 0px !important;
+  color: #272929 !important;
+  -webkit-text-fill-color: #272929 !important;
+}
+
+.addEntryDialog .MuiInputBase-root input {
+  height: 40px;
+  border: 1px solid #d4d4d4;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #272929;
+}
+
+.addEntryDialog .MuiOutlinedInput-notchedOutline {
+  border-color: #d4d4d4;
+}
+
+.addEntryDialog .MuiSelect-select {
+  padding: 9px 32px 9px 15px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #272929;
+}
+
+.addEntryDialog h6 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  color: #272929;
+  margin-bottom: 20px;
+}
+
+.entryCardTable.MuiCard-root {
+  margin-top: 30px;
+  border-radius: 15px;
+  border: 1px solid #d4d4d4;
+  border-bottom: 0px;
+  box-shadow: 0px 4px 14px rgba(68, 68, 68, 0.14);
+}
+
+.entryHeader {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.entryCardTable .MuiBadge-root {
+  background: #96bff5;
+  border-radius: 6px;
+  margin-left: 15px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 12px;
+  letter-spacing: -0.006em;
+  color: #ffffff;
+}
+
+.navbarLink.MuiButtonBase-root {
+  font-weight: 400;
+  font-size: 16px;
+  color: #272929;
+  margin-left: 30px;
+}
+
+.spacingGrid {
+  padding: 30px 0px;
+}
+
+.emptyCard.MuiCard-root {
+  padding: 15px;
+  box-shadow: none;
+  background-color: #efeeee;
+}
+
+.emptyCard .MuiTypography-h6 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  color: #272929;
+}
+
+.emptyCard .MuiTypography-body1 {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #7d7f7f;
+}
+
+.emptyCard.warningCard {
+  background-color: #ff4141 !important;
+}
+
+.emptyCard.warningCard .MuiTypography-h6,
+.emptyCard.successCard .MuiTypography-h6 {
+  color: #fff !important;
+}
+
+.emptyCard.warningCard .MuiTypography-body1,
+.emptyCard.successCard .MuiTypography-body1 {
+  color: #fff !important;
+}
+
+.emptyCard.successCard {
+  background-color: rgb(49 146 54) !important;
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+}
+
+.loadMore.MuiButton-root {
+  color: #2f80ed !important;
+}
+
+.entryCardTable .MuiBadge-root.error {
+  background-color: red;
+}
+
+.entryCardTable .MuiBadge-root.default {
+  background-color: #2f80ed;
+}
+
+.dateRangePicker .MuiInputBase-input {
+  padding: 9px 0px 9px 12px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.006em;
+  color: #272929;
+}
+
+.deleteDialog .MuiButton-contained {
+  background-color: red !important;
+}
+
+.searchButton {
+  width: 40px;
+  height: 40px;
+}
+
+.reportCard.MuiCard-root {
+  border-radius: 15px;
+  border: 1px solid #d4d4d4;
+  border: 0px;
+  padding: 20px;
+  box-shadow: 0px 4px 14px rgba(68, 68, 68, 0.14);
+}
+
+.reportCard .MuiTypography-h6 {
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: -0.019em;
+  color: #272929;
+  margin-top: 20px;
+}
+
+.reportCard .MuiTypography-body1 {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: -0.006em;
+  color: #a9a9a9;
+}
+
+.headingText.MuiTypography-root {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.selectUsers .react-select__control {
+  width: 240px;
+}
+
+.MuiAlert-message {
+  word-break: break-all;
+}
